@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@axn-design-system/storybook-host": ["libs/storybook-host/src/index.ts"],
       "@axn-design-system/ui": ["libs/ui/src/index.ts"]
     }
   },
