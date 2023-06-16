@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import Banner from './banner';
+import Ui from './ui';
 
-describe('Banner', () => {
+describe('Ui', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<Banner text="Yikes" />);
+    const { baseElement } = render(<Ui />);
     expect(baseElement).toBeTruthy();
   });
 });

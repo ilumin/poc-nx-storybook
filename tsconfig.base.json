@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@axn-design-system/axn-core-ui": ["libs/axn-core-ui/src/index.ts"]
+      "@axn-design-system/ui": ["libs/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

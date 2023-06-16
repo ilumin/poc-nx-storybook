@@ -1,11 +1,11 @@
 /* eslint-disable */
 export default {
-  displayName: 'axn-core-ui',
+  displayName: 'ui',
   preset: '../../jest.preset.js',
   transform: {
     '^(?!.*\\.(js|jsx|ts|tsx|css|json)$)': '@nx/react/plugins/jest',
     '^.+\\.[tj]sx?$': ['babel-jest', { presets: ['@nx/react/babel'] }],
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../coverage/libs/axn-core-ui',
+  coverageDirectory: '../../coverage/libs/ui',
 };
