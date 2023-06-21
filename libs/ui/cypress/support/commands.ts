@@ -1,4 +1,5 @@
 /// <reference types="cypress" />
+import "@frsource/cypress-plugin-visual-regression-diff";
 
 // ***********************************************
 // This example commands.ts shows you how to
